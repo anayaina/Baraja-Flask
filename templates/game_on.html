@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="/static/estilo.css" />
+    <title>Baraja</title>
+</head>
+
+<body>
+    <div id="content">
+        <h1>🎉 Resultado de Juego 🎉</h1>
+        <h2> 👤 Jugador 1</h2>
+        <div class="renglon">
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador1.carta0 }} ">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador1.carta1 }} ">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador1.carta2 }} ">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador1.carta3 }} ">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador1.carta4 }} ">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador1.carta5 }} ">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador1.carta6 }} ">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <h2> 👤 Jugador 2</h2>
+        <div class="renglon">
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador2.carta0 }}">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador2.carta1 }}">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador2.carta2 }}">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador2.carta3 }}">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador2.carta4 }}">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador2.carta5 }}">
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <img src=" {{ jugador2.carta6 }}">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <p> {{ winner }} </p>
+    </div>
+    <div class="row">
+        <p align="center"><a href="/"><button class=grey style="height:45px;width:100px">Inicio</button></a></p>
+    </div>
+</body>
+
+</html>
